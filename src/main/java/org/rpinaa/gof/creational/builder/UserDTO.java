@@ -10,6 +10,8 @@ public class UserDTO {
     private String age;
     private String address;
 
+    private UserDTO (){}
+
     public static class Builder {
 
         private String firstName;
