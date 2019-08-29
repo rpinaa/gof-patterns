@@ -10,7 +10,7 @@ import org.rpinaa.gof.creational.factory.method.Message;
 import org.rpinaa.gof.creational.factory.method.TextMessageCreator;
 
 @RunWith(JUnit4.class)
-public class ClientFactoryMethodTest {
+public class FactoryClientMethodTest {
 
     @Test
     public void printMessage_whenPassAJSONMessageCreatorInstance_shouldReturnASpecificJSONMessage() {
