@@ -2,12 +2,9 @@ package org.rpinaa.gof.structural.flyweight;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.junit.runners.JUnit4;
 
 import static org.rpinaa.gof.structural.flyweight.ErrorMessageFactory.ErrorType.*;
 
-@RunWith(JUnit4.class)
 public class FlyweightErrorTest {
 
     @Test

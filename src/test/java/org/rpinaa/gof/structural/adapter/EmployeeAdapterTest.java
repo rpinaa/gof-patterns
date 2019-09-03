@@ -2,14 +2,7 @@ package org.rpinaa.gof.structural.adapter;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.junit.runners.JUnit4;
-import org.rpinaa.gof.structural.adapter.BusinessCardDesigner;
-import org.rpinaa.gof.structural.adapter.Employee;
-import org.rpinaa.gof.structural.adapter.EmployeeAdapter;
-import org.rpinaa.gof.structural.adapter.EmployeeAdapterWithComposition;
 
-@RunWith(JUnit4.class)
 public class EmployeeAdapterTest {
 
     @Test

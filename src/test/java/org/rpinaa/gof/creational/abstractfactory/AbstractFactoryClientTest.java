@@ -2,11 +2,8 @@ package org.rpinaa.gof.creational.abstractfactory;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.junit.runners.JUnit4;
 import org.rpinaa.gof.creational.abstractfactory.factory.Instance;
 
-@RunWith(JUnit4.class)
 public class AbstractFactoryClientTest {
 
     @Test

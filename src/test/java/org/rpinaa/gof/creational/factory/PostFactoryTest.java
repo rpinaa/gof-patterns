@@ -2,18 +2,15 @@ package org.rpinaa.gof.creational.factory;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.junit.runners.JUnit4;
 import org.rpinaa.gof.creational.factory.domain.BlogPost;
 import org.rpinaa.gof.creational.factory.domain.NewPost;
 import org.rpinaa.gof.creational.factory.domain.ProductPost;
 
 import static org.rpinaa.gof.creational.factory.PostFactory.PostType.*;
 
-@RunWith(JUnit4.class)
 public class PostFactoryTest {
 
-   @Test
+    @Test
     public void buildPost_whenPassNEWEnumValueInsideIn_shouldReturnACompleteNewPost() {
 
         final NewPost newPost = (NewPost) PostFactory.buildPost(NEW);
